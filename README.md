@@ -1,11 +1,11 @@
-# PyTest Magicmock Raise Exception Example
+# PyTest MagicMock Raise Exception Example
 
-<!-- This repo contains the sample code for the article - [A Comprehensive Guide to Pytest Approx for Accurate Numeric Testing](https://pytest-with-eric.com/pytest-advanced/pytest-approx/) 
+This repo contains the sample code for the article - [How To Test Raised Exceptions with Pytest MagicMock? (Advanced Guide)](https://pytest-with-eric.com/pytest-best-practices/python-magicmock-raise-exception/) 
 
-This project explains how to use Pytest Approx to test Numerical Precision specific code. -->
+This project explains how to test exceptions raised by Mocked Functions.
 
 # Requirements
-* Python (3.11.4)
+* Python (3.11+)
 
 Please install the dependencies via the `requirements.txt` file using 
 ```commandline
