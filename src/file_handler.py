@@ -39,8 +39,8 @@ def remove_file(filepath):
     try:
         os.remove(filepath)
         return True
-    except FileNotFoundError:
-        raise FileNotFoundError
+    except FileNotFoundError as e:
+        raise e
 
 
 def remove_directory(directory):
@@ -55,5 +55,5 @@ def remove_directory(directory):
     try:
         shutil.rmtree(directory)
         return True
-    except FileNotFoundError:
-        raise FileNotFoundError
+    except FileNotFoundError as e:
+        raise e
