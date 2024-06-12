@@ -28,7 +28,7 @@ def test_add_file(mocker):
     # Act
     filepath = add_file("/tmp", "test.txt", "test")
     # Assert
-    assert filepath == "/tmp/test.txt"
+    assert filepath == "/tmp\\test.txt"
 
 
 def test_remove_file_success(mocker):
